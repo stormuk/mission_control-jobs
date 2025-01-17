@@ -14475,55 +14475,6 @@ has-background-white.is-hoverable:active {
   background-color: hsl(var(--bulma-white-h), var(--bulma-white-s), calc(var(--bulma-white-l) + var(--bulma-active-background-l-delta))) !important;
 }
 
-.is-palette-white {
-  --h: var(--bulma-white-h);
-  --s: var(--bulma-white-s);
-  --l: var(--bulma-white-l);
-  --color: hsl(var(--h), var(--s), var(--l));
-  --00-l: var(--bulma-white-00-l);
-  --color-00: hsl(var(--h), var(--s), var(--00-l));
-  --05-l: var(--bulma-white-05-l);
-  --color-05: hsl(var(--h), var(--s), var(--05-l));
-  --10-l: var(--bulma-white-10-l);
-  --color-10: hsl(var(--h), var(--s), var(--10-l));
-  --15-l: var(--bulma-white-15-l);
-  --color-15: hsl(var(--h), var(--s), var(--15-l));
-  --20-l: var(--bulma-white-20-l);
-  --color-20: hsl(var(--h), var(--s), var(--20-l));
-  --25-l: var(--bulma-white-25-l);
-  --color-25: hsl(var(--h), var(--s), var(--25-l));
-  --30-l: var(--bulma-white-30-l);
-  --color-30: hsl(var(--h), var(--s), var(--30-l));
-  --35-l: var(--bulma-white-35-l);
-  --color-35: hsl(var(--h), var(--s), var(--35-l));
-  --40-l: var(--bulma-white-40-l);
-  --color-40: hsl(var(--h), var(--s), var(--40-l));
-  --45-l: var(--bulma-white-45-l);
-  --color-45: hsl(var(--h), var(--s), var(--45-l));
-  --50-l: var(--bulma-white-50-l);
-  --color-50: hsl(var(--h), var(--s), var(--50-l));
-  --55-l: var(--bulma-white-55-l);
-  --color-55: hsl(var(--h), var(--s), var(--55-l));
-  --60-l: var(--bulma-white-60-l);
-  --color-60: hsl(var(--h), var(--s), var(--60-l));
-  --65-l: var(--bulma-white-65-l);
-  --color-65: hsl(var(--h), var(--s), var(--65-l));
-  --70-l: var(--bulma-white-70-l);
-  --color-70: hsl(var(--h), var(--s), var(--70-l));
-  --75-l: var(--bulma-white-75-l);
-  --color-75: hsl(var(--h), var(--s), var(--75-l));
-  --80-l: var(--bulma-white-80-l);
-  --color-80: hsl(var(--h), var(--s), var(--80-l));
-  --85-l: var(--bulma-white-85-l);
-  --color-85: hsl(var(--h), var(--s), var(--85-l));
-  --90-l: var(--bulma-white-90-l);
-  --color-90: hsl(var(--h), var(--s), var(--90-l));
-  --95-l: var(--bulma-white-95-l);
-  --color-95: hsl(var(--h), var(--s), var(--95-l));
-  --100-l: var(--bulma-white-100-l);
-  --color-100: hsl(var(--h), var(--s), var(--100-l));
-}
-
 .has-text-black {
   color: hsl(var(--bulma-black-h), var(--bulma-black-s), var(--bulma-black-l)) !important;
 }
@@ -14972,55 +14923,6 @@ a.has-background-black:active,
 button.has-background-black:active,
 has-background-black.is-hoverable:active {
   background-color: hsl(var(--bulma-black-h), var(--bulma-black-s), calc(var(--bulma-black-l) + var(--bulma-active-background-l-delta))) !important;
-}
-
-.is-palette-black {
-  --h: var(--bulma-black-h);
-  --s: var(--bulma-black-s);
-  --l: var(--bulma-black-l);
-  --color: hsl(var(--h), var(--s), var(--l));
-  --00-l: var(--bulma-black-00-l);
-  --color-00: hsl(var(--h), var(--s), var(--00-l));
-  --05-l: var(--bulma-black-05-l);
-  --color-05: hsl(var(--h), var(--s), var(--05-l));
-  --10-l: var(--bulma-black-10-l);
-  --color-10: hsl(var(--h), var(--s), var(--10-l));
-  --15-l: var(--bulma-black-15-l);
-  --color-15: hsl(var(--h), var(--s), var(--15-l));
-  --20-l: var(--bulma-black-20-l);
-  --color-20: hsl(var(--h), var(--s), var(--20-l));
-  --25-l: var(--bulma-black-25-l);
-  --color-25: hsl(var(--h), var(--s), var(--25-l));
-  --30-l: var(--bulma-black-30-l);
-  --color-30: hsl(var(--h), var(--s), var(--30-l));
-  --35-l: var(--bulma-black-35-l);
-  --color-35: hsl(var(--h), var(--s), var(--35-l));
-  --40-l: var(--bulma-black-40-l);
-  --color-40: hsl(var(--h), var(--s), var(--40-l));
-  --45-l: var(--bulma-black-45-l);
-  --color-45: hsl(var(--h), var(--s), var(--45-l));
-  --50-l: var(--bulma-black-50-l);
-  --color-50: hsl(var(--h), var(--s), var(--50-l));
-  --55-l: var(--bulma-black-55-l);
-  --color-55: hsl(var(--h), var(--s), var(--55-l));
-  --60-l: var(--bulma-black-60-l);
-  --color-60: hsl(var(--h), var(--s), var(--60-l));
-  --65-l: var(--bulma-black-65-l);
-  --color-65: hsl(var(--h), var(--s), var(--65-l));
-  --70-l: var(--bulma-black-70-l);
-  --color-70: hsl(var(--h), var(--s), var(--70-l));
-  --75-l: var(--bulma-black-75-l);
-  --color-75: hsl(var(--h), var(--s), var(--75-l));
-  --80-l: var(--bulma-black-80-l);
-  --color-80: hsl(var(--h), var(--s), var(--80-l));
-  --85-l: var(--bulma-black-85-l);
-  --color-85: hsl(var(--h), var(--s), var(--85-l));
-  --90-l: var(--bulma-black-90-l);
-  --color-90: hsl(var(--h), var(--s), var(--90-l));
-  --95-l: var(--bulma-black-95-l);
-  --color-95: hsl(var(--h), var(--s), var(--95-l));
-  --100-l: var(--bulma-black-100-l);
-  --color-100: hsl(var(--h), var(--s), var(--100-l));
 }
 
 .has-text-light {
@@ -15473,55 +15375,6 @@ has-background-light.is-hoverable:active {
   background-color: hsl(var(--bulma-light-h), var(--bulma-light-s), calc(var(--bulma-light-l) + var(--bulma-active-background-l-delta))) !important;
 }
 
-.is-palette-light {
-  --h: var(--bulma-light-h);
-  --s: var(--bulma-light-s);
-  --l: var(--bulma-light-l);
-  --color: hsl(var(--h), var(--s), var(--l));
-  --00-l: var(--bulma-light-00-l);
-  --color-00: hsl(var(--h), var(--s), var(--00-l));
-  --05-l: var(--bulma-light-05-l);
-  --color-05: hsl(var(--h), var(--s), var(--05-l));
-  --10-l: var(--bulma-light-10-l);
-  --color-10: hsl(var(--h), var(--s), var(--10-l));
-  --15-l: var(--bulma-light-15-l);
-  --color-15: hsl(var(--h), var(--s), var(--15-l));
-  --20-l: var(--bulma-light-20-l);
-  --color-20: hsl(var(--h), var(--s), var(--20-l));
-  --25-l: var(--bulma-light-25-l);
-  --color-25: hsl(var(--h), var(--s), var(--25-l));
-  --30-l: var(--bulma-light-30-l);
-  --color-30: hsl(var(--h), var(--s), var(--30-l));
-  --35-l: var(--bulma-light-35-l);
-  --color-35: hsl(var(--h), var(--s), var(--35-l));
-  --40-l: var(--bulma-light-40-l);
-  --color-40: hsl(var(--h), var(--s), var(--40-l));
-  --45-l: var(--bulma-light-45-l);
-  --color-45: hsl(var(--h), var(--s), var(--45-l));
-  --50-l: var(--bulma-light-50-l);
-  --color-50: hsl(var(--h), var(--s), var(--50-l));
-  --55-l: var(--bulma-light-55-l);
-  --color-55: hsl(var(--h), var(--s), var(--55-l));
-  --60-l: var(--bulma-light-60-l);
-  --color-60: hsl(var(--h), var(--s), var(--60-l));
-  --65-l: var(--bulma-light-65-l);
-  --color-65: hsl(var(--h), var(--s), var(--65-l));
-  --70-l: var(--bulma-light-70-l);
-  --color-70: hsl(var(--h), var(--s), var(--70-l));
-  --75-l: var(--bulma-light-75-l);
-  --color-75: hsl(var(--h), var(--s), var(--75-l));
-  --80-l: var(--bulma-light-80-l);
-  --color-80: hsl(var(--h), var(--s), var(--80-l));
-  --85-l: var(--bulma-light-85-l);
-  --color-85: hsl(var(--h), var(--s), var(--85-l));
-  --90-l: var(--bulma-light-90-l);
-  --color-90: hsl(var(--h), var(--s), var(--90-l));
-  --95-l: var(--bulma-light-95-l);
-  --color-95: hsl(var(--h), var(--s), var(--95-l));
-  --100-l: var(--bulma-light-100-l);
-  --color-100: hsl(var(--h), var(--s), var(--100-l));
-}
-
 .has-text-dark {
   color: hsl(var(--bulma-dark-h), var(--bulma-dark-s), var(--bulma-dark-l)) !important;
 }
@@ -15970,55 +15823,6 @@ a.has-background-dark:active,
 button.has-background-dark:active,
 has-background-dark.is-hoverable:active {
   background-color: hsl(var(--bulma-dark-h), var(--bulma-dark-s), calc(var(--bulma-dark-l) + var(--bulma-active-background-l-delta))) !important;
-}
-
-.is-palette-dark {
-  --h: var(--bulma-dark-h);
-  --s: var(--bulma-dark-s);
-  --l: var(--bulma-dark-l);
-  --color: hsl(var(--h), var(--s), var(--l));
-  --00-l: var(--bulma-dark-00-l);
-  --color-00: hsl(var(--h), var(--s), var(--00-l));
-  --05-l: var(--bulma-dark-05-l);
-  --color-05: hsl(var(--h), var(--s), var(--05-l));
-  --10-l: var(--bulma-dark-10-l);
-  --color-10: hsl(var(--h), var(--s), var(--10-l));
-  --15-l: var(--bulma-dark-15-l);
-  --color-15: hsl(var(--h), var(--s), var(--15-l));
-  --20-l: var(--bulma-dark-20-l);
-  --color-20: hsl(var(--h), var(--s), var(--20-l));
-  --25-l: var(--bulma-dark-25-l);
-  --color-25: hsl(var(--h), var(--s), var(--25-l));
-  --30-l: var(--bulma-dark-30-l);
-  --color-30: hsl(var(--h), var(--s), var(--30-l));
-  --35-l: var(--bulma-dark-35-l);
-  --color-35: hsl(var(--h), var(--s), var(--35-l));
-  --40-l: var(--bulma-dark-40-l);
-  --color-40: hsl(var(--h), var(--s), var(--40-l));
-  --45-l: var(--bulma-dark-45-l);
-  --color-45: hsl(var(--h), var(--s), var(--45-l));
-  --50-l: var(--bulma-dark-50-l);
-  --color-50: hsl(var(--h), var(--s), var(--50-l));
-  --55-l: var(--bulma-dark-55-l);
-  --color-55: hsl(var(--h), var(--s), var(--55-l));
-  --60-l: var(--bulma-dark-60-l);
-  --color-60: hsl(var(--h), var(--s), var(--60-l));
-  --65-l: var(--bulma-dark-65-l);
-  --color-65: hsl(var(--h), var(--s), var(--65-l));
-  --70-l: var(--bulma-dark-70-l);
-  --color-70: hsl(var(--h), var(--s), var(--70-l));
-  --75-l: var(--bulma-dark-75-l);
-  --color-75: hsl(var(--h), var(--s), var(--75-l));
-  --80-l: var(--bulma-dark-80-l);
-  --color-80: hsl(var(--h), var(--s), var(--80-l));
-  --85-l: var(--bulma-dark-85-l);
-  --color-85: hsl(var(--h), var(--s), var(--85-l));
-  --90-l: var(--bulma-dark-90-l);
-  --color-90: hsl(var(--h), var(--s), var(--90-l));
-  --95-l: var(--bulma-dark-95-l);
-  --color-95: hsl(var(--h), var(--s), var(--95-l));
-  --100-l: var(--bulma-dark-100-l);
-  --color-100: hsl(var(--h), var(--s), var(--100-l));
 }
 
 .has-text-text {
@@ -16471,55 +16275,6 @@ has-background-text.is-hoverable:active {
   background-color: hsl(var(--bulma-text-h), var(--bulma-text-s), calc(var(--bulma-text-l) + var(--bulma-active-background-l-delta))) !important;
 }
 
-.is-palette-text {
-  --h: var(--bulma-text-h);
-  --s: var(--bulma-text-s);
-  --l: var(--bulma-text-l);
-  --color: hsl(var(--h), var(--s), var(--l));
-  --00-l: var(--bulma-text-00-l);
-  --color-00: hsl(var(--h), var(--s), var(--00-l));
-  --05-l: var(--bulma-text-05-l);
-  --color-05: hsl(var(--h), var(--s), var(--05-l));
-  --10-l: var(--bulma-text-10-l);
-  --color-10: hsl(var(--h), var(--s), var(--10-l));
-  --15-l: var(--bulma-text-15-l);
-  --color-15: hsl(var(--h), var(--s), var(--15-l));
-  --20-l: var(--bulma-text-20-l);
-  --color-20: hsl(var(--h), var(--s), var(--20-l));
-  --25-l: var(--bulma-text-25-l);
-  --color-25: hsl(var(--h), var(--s), var(--25-l));
-  --30-l: var(--bulma-text-30-l);
-  --color-30: hsl(var(--h), var(--s), var(--30-l));
-  --35-l: var(--bulma-text-35-l);
-  --color-35: hsl(var(--h), var(--s), var(--35-l));
-  --40-l: var(--bulma-text-40-l);
-  --color-40: hsl(var(--h), var(--s), var(--40-l));
-  --45-l: var(--bulma-text-45-l);
-  --color-45: hsl(var(--h), var(--s), var(--45-l));
-  --50-l: var(--bulma-text-50-l);
-  --color-50: hsl(var(--h), var(--s), var(--50-l));
-  --55-l: var(--bulma-text-55-l);
-  --color-55: hsl(var(--h), var(--s), var(--55-l));
-  --60-l: var(--bulma-text-60-l);
-  --color-60: hsl(var(--h), var(--s), var(--60-l));
-  --65-l: var(--bulma-text-65-l);
-  --color-65: hsl(var(--h), var(--s), var(--65-l));
-  --70-l: var(--bulma-text-70-l);
-  --color-70: hsl(var(--h), var(--s), var(--70-l));
-  --75-l: var(--bulma-text-75-l);
-  --color-75: hsl(var(--h), var(--s), var(--75-l));
-  --80-l: var(--bulma-text-80-l);
-  --color-80: hsl(var(--h), var(--s), var(--80-l));
-  --85-l: var(--bulma-text-85-l);
-  --color-85: hsl(var(--h), var(--s), var(--85-l));
-  --90-l: var(--bulma-text-90-l);
-  --color-90: hsl(var(--h), var(--s), var(--90-l));
-  --95-l: var(--bulma-text-95-l);
-  --color-95: hsl(var(--h), var(--s), var(--95-l));
-  --100-l: var(--bulma-text-100-l);
-  --color-100: hsl(var(--h), var(--s), var(--100-l));
-}
-
 .has-text-primary {
   color: hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)) !important;
 }
@@ -16968,55 +16723,6 @@ a.has-background-primary:active,
 button.has-background-primary:active,
 has-background-primary.is-hoverable:active {
   background-color: hsl(var(--bulma-primary-h), var(--bulma-primary-s), calc(var(--bulma-primary-l) + var(--bulma-active-background-l-delta))) !important;
-}
-
-.is-palette-primary {
-  --h: var(--bulma-primary-h);
-  --s: var(--bulma-primary-s);
-  --l: var(--bulma-primary-l);
-  --color: hsl(var(--h), var(--s), var(--l));
-  --00-l: var(--bulma-primary-00-l);
-  --color-00: hsl(var(--h), var(--s), var(--00-l));
-  --05-l: var(--bulma-primary-05-l);
-  --color-05: hsl(var(--h), var(--s), var(--05-l));
-  --10-l: var(--bulma-primary-10-l);
-  --color-10: hsl(var(--h), var(--s), var(--10-l));
-  --15-l: var(--bulma-primary-15-l);
-  --color-15: hsl(var(--h), var(--s), var(--15-l));
-  --20-l: var(--bulma-primary-20-l);
-  --color-20: hsl(var(--h), var(--s), var(--20-l));
-  --25-l: var(--bulma-primary-25-l);
-  --color-25: hsl(var(--h), var(--s), var(--25-l));
-  --30-l: var(--bulma-primary-30-l);
-  --color-30: hsl(var(--h), var(--s), var(--30-l));
-  --35-l: var(--bulma-primary-35-l);
-  --color-35: hsl(var(--h), var(--s), var(--35-l));
-  --40-l: var(--bulma-primary-40-l);
-  --color-40: hsl(var(--h), var(--s), var(--40-l));
-  --45-l: var(--bulma-primary-45-l);
-  --color-45: hsl(var(--h), var(--s), var(--45-l));
-  --50-l: var(--bulma-primary-50-l);
-  --color-50: hsl(var(--h), var(--s), var(--50-l));
-  --55-l: var(--bulma-primary-55-l);
-  --color-55: hsl(var(--h), var(--s), var(--55-l));
-  --60-l: var(--bulma-primary-60-l);
-  --color-60: hsl(var(--h), var(--s), var(--60-l));
-  --65-l: var(--bulma-primary-65-l);
-  --color-65: hsl(var(--h), var(--s), var(--65-l));
-  --70-l: var(--bulma-primary-70-l);
-  --color-70: hsl(var(--h), var(--s), var(--70-l));
-  --75-l: var(--bulma-primary-75-l);
-  --color-75: hsl(var(--h), var(--s), var(--75-l));
-  --80-l: var(--bulma-primary-80-l);
-  --color-80: hsl(var(--h), var(--s), var(--80-l));
-  --85-l: var(--bulma-primary-85-l);
-  --color-85: hsl(var(--h), var(--s), var(--85-l));
-  --90-l: var(--bulma-primary-90-l);
-  --color-90: hsl(var(--h), var(--s), var(--90-l));
-  --95-l: var(--bulma-primary-95-l);
-  --color-95: hsl(var(--h), var(--s), var(--95-l));
-  --100-l: var(--bulma-primary-100-l);
-  --color-100: hsl(var(--h), var(--s), var(--100-l));
 }
 
 .has-text-link {
@@ -17469,55 +17175,6 @@ has-background-link.is-hoverable:active {
   background-color: hsl(var(--bulma-link-h), var(--bulma-link-s), calc(var(--bulma-link-l) + var(--bulma-active-background-l-delta))) !important;
 }
 
-.is-palette-link {
-  --h: var(--bulma-link-h);
-  --s: var(--bulma-link-s);
-  --l: var(--bulma-link-l);
-  --color: hsl(var(--h), var(--s), var(--l));
-  --00-l: var(--bulma-link-00-l);
-  --color-00: hsl(var(--h), var(--s), var(--00-l));
-  --05-l: var(--bulma-link-05-l);
-  --color-05: hsl(var(--h), var(--s), var(--05-l));
-  --10-l: var(--bulma-link-10-l);
-  --color-10: hsl(var(--h), var(--s), var(--10-l));
-  --15-l: var(--bulma-link-15-l);
-  --color-15: hsl(var(--h), var(--s), var(--15-l));
-  --20-l: var(--bulma-link-20-l);
-  --color-20: hsl(var(--h), var(--s), var(--20-l));
-  --25-l: var(--bulma-link-25-l);
-  --color-25: hsl(var(--h), var(--s), var(--25-l));
-  --30-l: var(--bulma-link-30-l);
-  --color-30: hsl(var(--h), var(--s), var(--30-l));
-  --35-l: var(--bulma-link-35-l);
-  --color-35: hsl(var(--h), var(--s), var(--35-l));
-  --40-l: var(--bulma-link-40-l);
-  --color-40: hsl(var(--h), var(--s), var(--40-l));
-  --45-l: var(--bulma-link-45-l);
-  --color-45: hsl(var(--h), var(--s), var(--45-l));
-  --50-l: var(--bulma-link-50-l);
-  --color-50: hsl(var(--h), var(--s), var(--50-l));
-  --55-l: var(--bulma-link-55-l);
-  --color-55: hsl(var(--h), var(--s), var(--55-l));
-  --60-l: var(--bulma-link-60-l);
-  --color-60: hsl(var(--h), var(--s), var(--60-l));
-  --65-l: var(--bulma-link-65-l);
-  --color-65: hsl(var(--h), var(--s), var(--65-l));
-  --70-l: var(--bulma-link-70-l);
-  --color-70: hsl(var(--h), var(--s), var(--70-l));
-  --75-l: var(--bulma-link-75-l);
-  --color-75: hsl(var(--h), var(--s), var(--75-l));
-  --80-l: var(--bulma-link-80-l);
-  --color-80: hsl(var(--h), var(--s), var(--80-l));
-  --85-l: var(--bulma-link-85-l);
-  --color-85: hsl(var(--h), var(--s), var(--85-l));
-  --90-l: var(--bulma-link-90-l);
-  --color-90: hsl(var(--h), var(--s), var(--90-l));
-  --95-l: var(--bulma-link-95-l);
-  --color-95: hsl(var(--h), var(--s), var(--95-l));
-  --100-l: var(--bulma-link-100-l);
-  --color-100: hsl(var(--h), var(--s), var(--100-l));
-}
-
 .has-text-info {
   color: hsl(var(--bulma-info-h), var(--bulma-info-s), var(--bulma-info-l)) !important;
 }
@@ -17966,55 +17623,6 @@ a.has-background-info:active,
 button.has-background-info:active,
 has-background-info.is-hoverable:active {
   background-color: hsl(var(--bulma-info-h), var(--bulma-info-s), calc(var(--bulma-info-l) + var(--bulma-active-background-l-delta))) !important;
-}
-
-.is-palette-info {
-  --h: var(--bulma-info-h);
-  --s: var(--bulma-info-s);
-  --l: var(--bulma-info-l);
-  --color: hsl(var(--h), var(--s), var(--l));
-  --00-l: var(--bulma-info-00-l);
-  --color-00: hsl(var(--h), var(--s), var(--00-l));
-  --05-l: var(--bulma-info-05-l);
-  --color-05: hsl(var(--h), var(--s), var(--05-l));
-  --10-l: var(--bulma-info-10-l);
-  --color-10: hsl(var(--h), var(--s), var(--10-l));
-  --15-l: var(--bulma-info-15-l);
-  --color-15: hsl(var(--h), var(--s), var(--15-l));
-  --20-l: var(--bulma-info-20-l);
-  --color-20: hsl(var(--h), var(--s), var(--20-l));
-  --25-l: var(--bulma-info-25-l);
-  --color-25: hsl(var(--h), var(--s), var(--25-l));
-  --30-l: var(--bulma-info-30-l);
-  --color-30: hsl(var(--h), var(--s), var(--30-l));
-  --35-l: var(--bulma-info-35-l);
-  --color-35: hsl(var(--h), var(--s), var(--35-l));
-  --40-l: var(--bulma-info-40-l);
-  --color-40: hsl(var(--h), var(--s), var(--40-l));
-  --45-l: var(--bulma-info-45-l);
-  --color-45: hsl(var(--h), var(--s), var(--45-l));
-  --50-l: var(--bulma-info-50-l);
-  --color-50: hsl(var(--h), var(--s), var(--50-l));
-  --55-l: var(--bulma-info-55-l);
-  --color-55: hsl(var(--h), var(--s), var(--55-l));
-  --60-l: var(--bulma-info-60-l);
-  --color-60: hsl(var(--h), var(--s), var(--60-l));
-  --65-l: var(--bulma-info-65-l);
-  --color-65: hsl(var(--h), var(--s), var(--65-l));
-  --70-l: var(--bulma-info-70-l);
-  --color-70: hsl(var(--h), var(--s), var(--70-l));
-  --75-l: var(--bulma-info-75-l);
-  --color-75: hsl(var(--h), var(--s), var(--75-l));
-  --80-l: var(--bulma-info-80-l);
-  --color-80: hsl(var(--h), var(--s), var(--80-l));
-  --85-l: var(--bulma-info-85-l);
-  --color-85: hsl(var(--h), var(--s), var(--85-l));
-  --90-l: var(--bulma-info-90-l);
-  --color-90: hsl(var(--h), var(--s), var(--90-l));
-  --95-l: var(--bulma-info-95-l);
-  --color-95: hsl(var(--h), var(--s), var(--95-l));
-  --100-l: var(--bulma-info-100-l);
-  --color-100: hsl(var(--h), var(--s), var(--100-l));
 }
 
 .has-text-success {
@@ -18467,55 +18075,6 @@ has-background-success.is-hoverable:active {
   background-color: hsl(var(--bulma-success-h), var(--bulma-success-s), calc(var(--bulma-success-l) + var(--bulma-active-background-l-delta))) !important;
 }
 
-.is-palette-success {
-  --h: var(--bulma-success-h);
-  --s: var(--bulma-success-s);
-  --l: var(--bulma-success-l);
-  --color: hsl(var(--h), var(--s), var(--l));
-  --00-l: var(--bulma-success-00-l);
-  --color-00: hsl(var(--h), var(--s), var(--00-l));
-  --05-l: var(--bulma-success-05-l);
-  --color-05: hsl(var(--h), var(--s), var(--05-l));
-  --10-l: var(--bulma-success-10-l);
-  --color-10: hsl(var(--h), var(--s), var(--10-l));
-  --15-l: var(--bulma-success-15-l);
-  --color-15: hsl(var(--h), var(--s), var(--15-l));
-  --20-l: var(--bulma-success-20-l);
-  --color-20: hsl(var(--h), var(--s), var(--20-l));
-  --25-l: var(--bulma-success-25-l);
-  --color-25: hsl(var(--h), var(--s), var(--25-l));
-  --30-l: var(--bulma-success-30-l);
-  --color-30: hsl(var(--h), var(--s), var(--30-l));
-  --35-l: var(--bulma-success-35-l);
-  --color-35: hsl(var(--h), var(--s), var(--35-l));
-  --40-l: var(--bulma-success-40-l);
-  --color-40: hsl(var(--h), var(--s), var(--40-l));
-  --45-l: var(--bulma-success-45-l);
-  --color-45: hsl(var(--h), var(--s), var(--45-l));
-  --50-l: var(--bulma-success-50-l);
-  --color-50: hsl(var(--h), var(--s), var(--50-l));
-  --55-l: var(--bulma-success-55-l);
-  --color-55: hsl(var(--h), var(--s), var(--55-l));
-  --60-l: var(--bulma-success-60-l);
-  --color-60: hsl(var(--h), var(--s), var(--60-l));
-  --65-l: var(--bulma-success-65-l);
-  --color-65: hsl(var(--h), var(--s), var(--65-l));
-  --70-l: var(--bulma-success-70-l);
-  --color-70: hsl(var(--h), var(--s), var(--70-l));
-  --75-l: var(--bulma-success-75-l);
-  --color-75: hsl(var(--h), var(--s), var(--75-l));
-  --80-l: var(--bulma-success-80-l);
-  --color-80: hsl(var(--h), var(--s), var(--80-l));
-  --85-l: var(--bulma-success-85-l);
-  --color-85: hsl(var(--h), var(--s), var(--85-l));
-  --90-l: var(--bulma-success-90-l);
-  --color-90: hsl(var(--h), var(--s), var(--90-l));
-  --95-l: var(--bulma-success-95-l);
-  --color-95: hsl(var(--h), var(--s), var(--95-l));
-  --100-l: var(--bulma-success-100-l);
-  --color-100: hsl(var(--h), var(--s), var(--100-l));
-}
-
 .has-text-warning {
   color: hsl(var(--bulma-warning-h), var(--bulma-warning-s), var(--bulma-warning-l)) !important;
 }
@@ -18966,55 +18525,6 @@ has-background-warning.is-hoverable:active {
   background-color: hsl(var(--bulma-warning-h), var(--bulma-warning-s), calc(var(--bulma-warning-l) + var(--bulma-active-background-l-delta))) !important;
 }
 
-.is-palette-warning {
-  --h: var(--bulma-warning-h);
-  --s: var(--bulma-warning-s);
-  --l: var(--bulma-warning-l);
-  --color: hsl(var(--h), var(--s), var(--l));
-  --00-l: var(--bulma-warning-00-l);
-  --color-00: hsl(var(--h), var(--s), var(--00-l));
-  --05-l: var(--bulma-warning-05-l);
-  --color-05: hsl(var(--h), var(--s), var(--05-l));
-  --10-l: var(--bulma-warning-10-l);
-  --color-10: hsl(var(--h), var(--s), var(--10-l));
-  --15-l: var(--bulma-warning-15-l);
-  --color-15: hsl(var(--h), var(--s), var(--15-l));
-  --20-l: var(--bulma-warning-20-l);
-  --color-20: hsl(var(--h), var(--s), var(--20-l));
-  --25-l: var(--bulma-warning-25-l);
-  --color-25: hsl(var(--h), var(--s), var(--25-l));
-  --30-l: var(--bulma-warning-30-l);
-  --color-30: hsl(var(--h), var(--s), var(--30-l));
-  --35-l: var(--bulma-warning-35-l);
-  --color-35: hsl(var(--h), var(--s), var(--35-l));
-  --40-l: var(--bulma-warning-40-l);
-  --color-40: hsl(var(--h), var(--s), var(--40-l));
-  --45-l: var(--bulma-warning-45-l);
-  --color-45: hsl(var(--h), var(--s), var(--45-l));
-  --50-l: var(--bulma-warning-50-l);
-  --color-50: hsl(var(--h), var(--s), var(--50-l));
-  --55-l: var(--bulma-warning-55-l);
-  --color-55: hsl(var(--h), var(--s), var(--55-l));
-  --60-l: var(--bulma-warning-60-l);
-  --color-60: hsl(var(--h), var(--s), var(--60-l));
-  --65-l: var(--bulma-warning-65-l);
-  --color-65: hsl(var(--h), var(--s), var(--65-l));
-  --70-l: var(--bulma-warning-70-l);
-  --color-70: hsl(var(--h), var(--s), var(--70-l));
-  --75-l: var(--bulma-warning-75-l);
-  --color-75: hsl(var(--h), var(--s), var(--75-l));
-  --80-l: var(--bulma-warning-80-l);
-  --color-80: hsl(var(--h), var(--s), var(--80-l));
-  --85-l: var(--bulma-warning-85-l);
-  --color-85: hsl(var(--h), var(--s), var(--85-l));
-  --90-l: var(--bulma-warning-90-l);
-  --color-90: hsl(var(--h), var(--s), var(--90-l));
-  --95-l: var(--bulma-warning-95-l);
-  --color-95: hsl(var(--h), var(--s), var(--95-l));
-  --100-l: var(--bulma-warning-100-l);
-  --color-100: hsl(var(--h), var(--s), var(--100-l));
-}
-
 .has-text-danger {
   color: hsl(var(--bulma-danger-h), var(--bulma-danger-s), var(--bulma-danger-l)) !important;
 }
@@ -19463,55 +18973,6 @@ a.has-background-danger:active,
 button.has-background-danger:active,
 has-background-danger.is-hoverable:active {
   background-color: hsl(var(--bulma-danger-h), var(--bulma-danger-s), calc(var(--bulma-danger-l) + var(--bulma-active-background-l-delta))) !important;
-}
-
-.is-palette-danger {
-  --h: var(--bulma-danger-h);
-  --s: var(--bulma-danger-s);
-  --l: var(--bulma-danger-l);
-  --color: hsl(var(--h), var(--s), var(--l));
-  --00-l: var(--bulma-danger-00-l);
-  --color-00: hsl(var(--h), var(--s), var(--00-l));
-  --05-l: var(--bulma-danger-05-l);
-  --color-05: hsl(var(--h), var(--s), var(--05-l));
-  --10-l: var(--bulma-danger-10-l);
-  --color-10: hsl(var(--h), var(--s), var(--10-l));
-  --15-l: var(--bulma-danger-15-l);
-  --color-15: hsl(var(--h), var(--s), var(--15-l));
-  --20-l: var(--bulma-danger-20-l);
-  --color-20: hsl(var(--h), var(--s), var(--20-l));
-  --25-l: var(--bulma-danger-25-l);
-  --color-25: hsl(var(--h), var(--s), var(--25-l));
-  --30-l: var(--bulma-danger-30-l);
-  --color-30: hsl(var(--h), var(--s), var(--30-l));
-  --35-l: var(--bulma-danger-35-l);
-  --color-35: hsl(var(--h), var(--s), var(--35-l));
-  --40-l: var(--bulma-danger-40-l);
-  --color-40: hsl(var(--h), var(--s), var(--40-l));
-  --45-l: var(--bulma-danger-45-l);
-  --color-45: hsl(var(--h), var(--s), var(--45-l));
-  --50-l: var(--bulma-danger-50-l);
-  --color-50: hsl(var(--h), var(--s), var(--50-l));
-  --55-l: var(--bulma-danger-55-l);
-  --color-55: hsl(var(--h), var(--s), var(--55-l));
-  --60-l: var(--bulma-danger-60-l);
-  --color-60: hsl(var(--h), var(--s), var(--60-l));
-  --65-l: var(--bulma-danger-65-l);
-  --color-65: hsl(var(--h), var(--s), var(--65-l));
-  --70-l: var(--bulma-danger-70-l);
-  --color-70: hsl(var(--h), var(--s), var(--70-l));
-  --75-l: var(--bulma-danger-75-l);
-  --color-75: hsl(var(--h), var(--s), var(--75-l));
-  --80-l: var(--bulma-danger-80-l);
-  --color-80: hsl(var(--h), var(--s), var(--80-l));
-  --85-l: var(--bulma-danger-85-l);
-  --color-85: hsl(var(--h), var(--s), var(--85-l));
-  --90-l: var(--bulma-danger-90-l);
-  --color-90: hsl(var(--h), var(--s), var(--90-l));
-  --95-l: var(--bulma-danger-95-l);
-  --color-95: hsl(var(--h), var(--s), var(--95-l));
-  --100-l: var(--bulma-danger-100-l);
-  --color-100: hsl(var(--h), var(--s), var(--100-l));
 }
 
 .has-text-black-bis {
